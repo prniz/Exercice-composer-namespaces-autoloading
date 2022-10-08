@@ -1,0 +1,16 @@
+{
+    "name": "app/demo",
+    "description": "premier exercice avec composer",
+    "type": "projet",
+    "require-dev": {
+        "fakerphp/faker": "^1.20"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\Demo\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
